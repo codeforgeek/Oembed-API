@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>OEmbed</title>
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="core.js"></script>
+  </head>
+  <body>
+    <div ng-app='status_app' ng-controller='status_controller'>
+      <textarea id="status" cols="50" rows="5" ng-model='status_box'></textarea><br><br>
+      <input type="button" value="submit" ng-click="add_status()"><br>
+      <div ng-bind-html="response_data"></div>
+  </div>
+  </body>
+</html>

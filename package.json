@@ -1,0 +1,13 @@
+{
+  "name": "oembed-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "cors": "~2.4.2",
+    "express": "~4.9.3",
+    "express-cors": "0.0.3",
+    "oembed": "~0.1.0",
+    "oembed-auto": "0.0.3",
+    "q-xhr": "~0.1.1"
+  }
+}
